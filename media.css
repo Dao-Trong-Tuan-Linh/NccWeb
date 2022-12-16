@@ -1,0 +1,44 @@
+@media screen and (max-width:769px)
+{
+    .logo{
+        width: 150px;
+        height:150px;
+        object-fit: contain;
+    }
+    .parts{
+        padding: 0 1rem;
+        flex-direction: column;
+    }
+
+    .part {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .part:last-child{
+        margin-bottom: 0;
+    }
+
+    .menu{
+        width:20%;
+    }
+
+    .main{
+        min-width: 80%;
+    }
+
+    .bg-content{
+        width:100%;
+        padding:2rem 1rem;
+        margin: 0 auto 2rem;
+    }
+}
+
+@media screen and (max-width:376px)
+{
+    .menu{
+        width:30%;
+    }
+
+   
+}
